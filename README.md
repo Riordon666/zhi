@@ -2,8 +2,8 @@
 
 <div align="center">
   
-![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
-![Matlab](https://img.shields.io/badge/MATLAB-R2024b-orange?logo=mathworks&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-2025.1.3.7-blue)
+![Java](https://img.shields.io/badge/Java-21%20LTS-blue)
 ![License](https://img.shields.io/badge/协议-MIT-blue)
 
 </div>
