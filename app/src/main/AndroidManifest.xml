@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <!--六麦唤醒-->
-    <uses-permission android:name="com.android.permission.IFLYTEK_MIC_WAKEUP" />
-    <!-- 读取内存卡权限 -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <!-- 连接网络权限 -->
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <!-- 允许程序录制音频 -->
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <!-- 允许程序访问有关的网络信息 -->
+
+    <!-- 录音/语音相关 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <!-- 允许程序改变网络连接状态 -->
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
-    <!-- 允许程序访问Wi-Fi网络状态信息 -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
-    <!-- 允许应用写（非读）用户的外部存储器 -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <!-- 允许程序读取所有者数据 -->
-    <uses-permission android:name="android.permission.READ_OWNER_DATA"/>
-    <!-- 允许一个程序写入但不读取所有者数据 -->
-    <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+
+    <!-- 存储相关 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+
+    <!-- 系统设置修改 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="com.android.permission.IFLYTEK_MIC_WAKEUP" />
 
 
     <application
@@ -33,12 +30,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Zhi">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
