@@ -28,4 +28,4 @@ win+r输入cmd进入命令提示符，"cd ?"进入目标文件夹，输入以下
 git clone https://github.com/Riordon666/zhi.git
 ```
 
-如果你觉得这个项目对你有帮助，欢迎 ⭐ **Star** 支持一下！
+# 如果你觉得这个项目对你有帮助，欢迎 ⭐ **Star** 支持一下！
