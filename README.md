@@ -2,9 +2,10 @@
 
 <div align="center">
   
-![Android Studio](https://img.shields.io/badge/Android_Studio-2025.1.3.7-blue)
-![Java](https://img.shields.io/badge/Java-21%20LTS-blue)
+![Android Studio](https://img.shields.io/badge/Android_Studio-2025.1.3.7-green)
+![Java](https://img.shields.io/badge/Java-21%20LTS-orange)
 ![Android SDK](https://img.shields.io/badge/Android_SDK-25%2B-brightgreen)
+![Gradle](https://img.shields.io/badge/Gradle-8.13-purple)
 ![License](https://img.shields.io/badge/协议-MIT-blue)
 
 </div>
