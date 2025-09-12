@@ -4,6 +4,8 @@
 
     <!-- 录音/语音相关 -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- 网络相关 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
@@ -18,7 +20,28 @@
     <!-- 系统设置修改 -->
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
+    <!-- 科大讯飞相关 -->
     <uses-permission android:name="com.android.permission.IFLYTEK_MIC_WAKEUP" />
+
+    <!-- 电话相关 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!-- 定位相关 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- 蓝牙 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <!-- 联系人（如果真的需要的话） -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <!-- 桌面快捷方式相关 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+
+    <!-- 悬浮窗 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
 
 
     <application
@@ -29,7 +52,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Zhi">
+        android:theme="@style/Theme.Zhi"
+        android:requestLegacyExternalStorage="true">
 
         <activity
             android:name=".MainActivity"
