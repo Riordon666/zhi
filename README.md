@@ -29,3 +29,7 @@ git clone https://github.com/Riordon666/zhi.git
 ```
 
 ## 如果你觉得这个项目对你有帮助，欢迎 ⭐ **Star** 支持一下！
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Riordon666/zhi&type=Date)](https://www.star-history.com/#Riordon666/zhi&Date)
